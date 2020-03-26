@@ -1,3 +1,14 @@
 .FakeBody {
-  border: 2px solid red;
+  background-color: black;
+}
+
+.Image {
+}
+
+.Header {
+  color: white;
+}
+
+.Article {
+  color: white;
 }

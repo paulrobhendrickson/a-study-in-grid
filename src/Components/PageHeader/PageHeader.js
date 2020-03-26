@@ -1,5 +1,4 @@
 import React from "react";
-import "./PageHeader.css";
 import Dropdown from "../Dropdown/Dropdown";
 
 function PageHeader({ styleSheetsArray, styleSheets, setStyleSheets }) {

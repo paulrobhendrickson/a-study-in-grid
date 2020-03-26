@@ -1,4 +1,14 @@
 .FakeBody {
-    background-color: burlywood;
-  }
-  
+  min-height: 100%;
+  max-width: 90%;
+  margin: auto;
+}
+
+.Image {
+}
+
+.Header {
+}
+
+.Article {
+}
