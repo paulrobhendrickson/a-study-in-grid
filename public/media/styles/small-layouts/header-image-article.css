@@ -1,0 +1,28 @@
+.FakeBody {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr;
+  height: 667px;
+  width: 375px;
+  overflow-y: scroll;
+}
+
+.Image {
+  width: 100%;
+  grid-row-start: 2;
+  grid-column: 1;
+}
+
+.Header {
+  display: grid;
+  align-items: center;
+  grid-row: 1;
+  grid-column: 1;
+  text-align: center;
+}
+
+.Article {
+  padding: 12px;
+  grid-row: 3;
+  overflow-y: scroll;
+}

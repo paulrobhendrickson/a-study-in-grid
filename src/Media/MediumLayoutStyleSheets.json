@@ -1,15 +1,10 @@
 {
-    "name": "Medium Layout Style",
-    "type": "layout",
-    "items": [
-      {
-        "name": "Image is background",
-        "route": "/media/styles/medium-layouts/image-is-background.css"
-      },
-      {
-        "name": "Medium Style Sheet B",
-        "route": "/media/styles/medium-layouts/medium-layout-b.css"
-      }
-    ]
-  }
-  
+  "name": "Medium Layout Style",
+  "type": "layout",
+  "items": [
+    {
+      "name": "Image is background",
+      "route": "/media/styles/medium-layouts/image-is-background.css"
+    }
+  ]
+}
