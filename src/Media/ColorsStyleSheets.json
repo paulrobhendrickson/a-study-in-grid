@@ -1,0 +1,14 @@
+{
+  "name": "Color Scheme",
+  "type": "color",
+  "items": [
+    {
+      "name": "Color Scheme A",
+      "route": "/media/styles/color-schemes/color-scheme-a.css"
+    },
+    {
+      "name": "Color Scheme B",
+      "route": "/media/styles/color-schemes/color-scheme-b.css"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Layout Style",
+  "type": "layout",
+  "items": [
+    {
+      "name": "Large Style Sheet A",
+      "route": "/media/styles/large-layouts/large-layout-a.css"
+    },
+    {
+      "name": "Large Style Sheet B",
+      "route": "/media/styles/large-layouts/large-layout-b.css"
+    }
+  ]
+}
