@@ -14,7 +14,6 @@ h5 {
 }
 
 .FakeBody {
-  border: 2px red solid;
   min-height: 90%;
   width: 90%;
   margin: auto;

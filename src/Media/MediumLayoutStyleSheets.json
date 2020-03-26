@@ -1,0 +1,15 @@
+{
+    "name": "Medium Layout Style",
+    "type": "layout",
+    "items": [
+      {
+        "name": "Medium Style Sheet A",
+        "route": "/media/styles/medium-layouts/medium-layout-a.css"
+      },
+      {
+        "name": "Medium Style Sheet B",
+        "route": "/media/styles/medium-layouts/medium-layout-b.css"
+      }
+    ]
+  }
+  

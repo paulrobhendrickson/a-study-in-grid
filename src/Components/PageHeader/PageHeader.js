@@ -1,17 +1,23 @@
 import React from "react";
 import "./PageHeader.css";
-import LayoutStyleSheets from "../../Media/LayoutStyleSheets.json";
 import Dropdown from "../Dropdown/Dropdown";
 
-function PageHeader({ styleSheets, setStyleSheets }) {
+function PageHeader({ styleSheetsArray, styleSheets, setStyleSheets }) {
   return (
     <div className="PageHeader">
       <h1 style={{ textAlign: "center" }}>A Study In CSS Grid</h1>
-      <Dropdown
-        styleSheets={styleSheets}
-        setStyleSheets={setStyleSheets}
-        styleSheetList={LayoutStyleSheets}
-      />
+      <div className="dropdowns">
+        {styleSheetsArray.map(list => {
+          return (
+            <Dropdown
+              key={list.name}
+              styleSheets={styleSheets}
+              setStyleSheets={setStyleSheets}
+              styleSheetList={list}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
 
 function Dropdown({ styleSheetList, styleSheets, setStyleSheets }) {
-  console.log(styleSheetList);
   return (
     <div className="dropdown">
       <div
@@ -26,7 +25,12 @@ function Dropdown({ styleSheetList, styleSheets, setStyleSheets }) {
                       ...styleSheets,
                       layout: styleSheetObject.route
                     })
-                  : console.log("hi")
+                  : styleSheetList.type === "color"
+                  ? setStyleSheets({
+                      ...styleSheets,
+                      colors: styleSheetObject.route
+                    })
+                  : console.log("Not color or layout")
               }
             >
               {styleSheetObject.name}

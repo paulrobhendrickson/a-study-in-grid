@@ -1,0 +1,14 @@
+{
+  "name": "Small Layout Style",
+  "type": "layout",
+  "items": [
+    {
+      "name": "Small Style Sheet A",
+      "route": "/media/styles/small-layouts/small-layout-a.css"
+    },
+    {
+      "name": "Small Style Sheet B",
+      "route": "/media/styles/small-layouts/small-layout-b.css"
+    }
+  ]
+}

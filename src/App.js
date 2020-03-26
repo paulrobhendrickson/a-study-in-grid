@@ -2,12 +2,23 @@ import React, { useState } from "react";
 import "./App.css";
 import PageHeader from "./Components/PageHeader/PageHeader";
 import FakeBody from "./Components/FakeBody/FakeBody";
-import LayoutStyleSheets from "./Media/LayoutStyleSheets.json";
+import LargeLayoutStyleSheets from "./Media/LargeLayoutStyleSheets.json";
+import MediumLayoutStyleSheets from "./Media/MediumLayoutStyleSheets.json";
+import SmallLayoutStyleSheets from "./Media/SmallLayoutStyleSheets.json";
+import ColorsStyleSheets from "./Media/ColorsStyleSheets.json";
 
 function App() {
   const [styleSheets, setStyleSheets] = useState({
-    layout: LayoutStyleSheets.items[0].route
+    layout: LargeLayoutStyleSheets.items[0].route,
+    colors: ColorsStyleSheets.items[0].route
   });
+
+  const styleSheetsArray = [
+    LargeLayoutStyleSheets,
+    MediumLayoutStyleSheets,
+    SmallLayoutStyleSheets,
+    ColorsStyleSheets
+  ];
 
   return (
     <div className="App">
@@ -15,7 +26,15 @@ function App() {
         rel="stylesheet"
         href={`${process.env.PUBLIC_URL + styleSheets.layout}`}
       />
-      <PageHeader styleSheets={styleSheets} setStyleSheets={setStyleSheets} />
+      <link
+        rel="stylesheet"
+        href={`${process.env.PUBLIC_URL + styleSheets.colors}`}
+      />
+      <PageHeader
+        styleSheetsArray={styleSheetsArray}
+        styleSheets={styleSheets}
+        setStyleSheets={setStyleSheets}
+      />
       <FakeBody />
     </div>
   );
