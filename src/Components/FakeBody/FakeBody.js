@@ -1,13 +1,10 @@
 import React from "react";
+import image from "../../Media/Images/image.jpg";
 
 function FakeBody() {
   return (
     <div className="FakeBody">
-      <img
-        className="Image"
-        src="http://placehold.it/200x200"
-        alt="place holder"
-      />
+      <img className="Image" src={image} alt="place holder" />
       <h1 className="Header">Header</h1>
       <article className="Article">
         <p>

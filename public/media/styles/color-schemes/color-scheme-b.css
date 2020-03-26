@@ -1,14 +1,14 @@
 .FakeBody {
-  min-height: 100%;
-  max-width: 90%;
-  margin: auto;
+  background-color: white;
 }
 
 .Image {
 }
 
 .Header {
+  color: black;
 }
 
 .Article {
+  color: black;
 }

@@ -1,4 +1,7 @@
 .FakeBody {
+  display: grid;
+  grid-template-columns: none;
+  grid-template-rows: none;
 }
 
 .Image {

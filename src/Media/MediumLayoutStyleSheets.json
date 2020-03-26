@@ -3,8 +3,8 @@
     "type": "layout",
     "items": [
       {
-        "name": "Medium Style Sheet A",
-        "route": "/media/styles/medium-layouts/medium-layout-a.css"
+        "name": "Image is background",
+        "route": "/media/styles/medium-layouts/image-is-background.css"
       },
       {
         "name": "Medium Style Sheet B",
