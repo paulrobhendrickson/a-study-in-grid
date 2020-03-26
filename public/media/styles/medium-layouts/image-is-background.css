@@ -1,6 +1,6 @@
 .FakeBody {
   display: grid;
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: 64px 1fr;
   grid-template-columns: 1fr;
   height: 432px;
   width: 768px;
@@ -15,12 +15,15 @@
 }
 
 .Header {
+  display: grid;
+  align-items: center;
   grid-row: 1;
   grid-column: 1;
   text-align: center;
 }
 
 .Article {
+  padding: 12px;
   grid-row: 2;
   overflow-y: scroll;
 }
