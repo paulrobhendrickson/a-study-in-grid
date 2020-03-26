@@ -3,6 +3,8 @@
   display: grid;
   grid-template-rows: 100px auto 1fr;
   grid-template-columns: 1fr;
+  min-width: 1296px;
+  min-height: 801px;
 }
 
 .Image {

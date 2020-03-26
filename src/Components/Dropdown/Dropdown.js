@@ -1,10 +1,11 @@
 import React from "react";
 
 function Dropdown({ styleSheetList, styleSheets, setStyleSheets }) {
+  console.log(styleSheets);
   return (
     <div className="dropdown">
       <div
-        className="btn btn-secondary dropdown-toggle"
+        className="btn btn-info dropdown-toggle"
         role="button"
         id="dropdownMenuLink"
         data-toggle="dropdown"
@@ -17,8 +18,13 @@ function Dropdown({ styleSheetList, styleSheets, setStyleSheets }) {
         {styleSheetList.items.map(styleSheetObject => {
           return (
             <div
+              style={{ cursor: "pointer" }}
               key={styleSheetObject.route}
-              className="dropdown-item"
+              className={
+                styleSheets.layout === styleSheetObject.route
+                  ? "dropdown-item active"
+                  : "dropdown-item"
+              }
               onClick={() =>
                 styleSheetList.type === "layout"
                   ? setStyleSheets({
