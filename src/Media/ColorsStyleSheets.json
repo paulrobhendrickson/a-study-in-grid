@@ -3,12 +3,16 @@
   "type": "color",
   "items": [
     {
-      "name": "Color Scheme A",
+      "name": "No color applied",
       "route": "/media/styles/color-schemes/color-scheme-a.css"
     },
     {
-      "name": "Color Scheme B",
+      "name": "Thick Black Border",
       "route": "/media/styles/color-schemes/color-scheme-b.css"
+    },
+    {
+      "name": "Dark & See-Through",
+      "route": "/media/styles/color-schemes/dark-mode-opacity-bg.css"
     }
   ]
 }

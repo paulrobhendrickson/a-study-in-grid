@@ -7,7 +7,7 @@ function FakeBody() {
       <img className="Image" src={image} alt="place holder" />
       <h1 className="Header">Header</h1>
       <article className="Article">
-        <p>
+        <p className="p1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quis
           enim lobortis scelerisque fermentum. Sit amet consectetur adipiscing
@@ -27,7 +27,7 @@ function FakeBody() {
           placerat duis ultricies lacus sed turpis tincidunt. Odio facilisis
           mauris sit amet massa vitae tortor condimentum.
         </p>
-        <p>
+        <p className="p2">
           Fermentum iaculis eu non diam. Ut tellus elementum sagittis vitae et
           leo duis. Diam volutpat commodo sed egestas egestas fringilla
           phasellus faucibus. Mi quis hendrerit dolor magna eget est lorem.
@@ -37,7 +37,7 @@ function FakeBody() {
           aliquam nulla facilisi cras. Gravida cum sociis natoque penatibus et.
           Congue quisque egestas diam in arcu cursus euismod.
         </p>
-        <p>
+        <p className="p3">
           Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum
           tellus. Odio aenean sed adipiscing diam donec adipiscing tristique
           risus nec. Vulputate eu scelerisque felis imperdiet proin. Purus sit
@@ -55,7 +55,7 @@ function FakeBody() {
           tincidunt tortor aliquam. Diam ut venenatis tellus in metus vulputate
           eu scelerisque felis.
         </p>
-        <p>
+        <p className="p4">
           Vehicula ipsum a arcu cursus vitae. Vulputate dignissim suspendisse in
           est. Ultricies mi eget mauris pharetra et ultrices neque. A
           condimentum vitae sapien pellentesque habitant morbi. Sodales ut eu
@@ -65,7 +65,7 @@ function FakeBody() {
           Volutpat consequat mauris nunc congue nisi. Dictumst quisque sagittis
           purus sit amet volutpat.
         </p>
-        <p>
+        <p className="p5">
           Volutpat est velit egestas dui id. Nisl condimentum id venenatis a
           condimentum vitae sapien. Ipsum dolor sit amet consectetur adipiscing.
           Varius quam quisque id diam vel. Malesuada proin libero nunc consequat

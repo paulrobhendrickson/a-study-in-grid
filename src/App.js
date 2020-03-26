@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import "./App2.css";
 import PageHeader from "./Components/PageHeader/PageHeader";
 import FakeBody from "./Components/FakeBody/FakeBody";
 import LargeLayoutStyleSheets from "./Media/LargeLayoutStyleSheets.json";

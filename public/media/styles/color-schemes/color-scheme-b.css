@@ -1,5 +1,7 @@
 .FakeBody {
   background-color: white;
+  border: 8px black solid;
+  border-radius: 12px;
 }
 
 .Image {

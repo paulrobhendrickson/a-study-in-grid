@@ -1,20 +1,41 @@
 .App {
   min-height: 100vh;
   display: grid;
-  grid-template-rows: 100px 1fr;
+  grid-template-rows: 150px 1fr;
+}
+
+body {
+  background-color: grey;
+  padding: 0;
+  margin: 0;
+}
+
+.PageHeader {
+  background-color: white;
+  border-bottom: 4px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Image {
+  max-width: 100%;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+p {
   margin: 0;
   padding: 0;
 }
 
 .FakeBody {
-  max-width: 90%;
+  max-width: 1296px;
   margin: auto;
 }
 
@@ -22,4 +43,3 @@ h5 {
   display: flex;
   justify-content: space-evenly;
 }
-/* copy paste later */

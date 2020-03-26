@@ -3,12 +3,20 @@
   "type": "layout",
   "items": [
     {
-      "name": "Large Style Sheet A",
-      "route": "/media/styles/large-layouts/large-layout-a.css"
+      "name": "No styling",
+      "route": "/media/styles/large-layouts/no-styling.css"
     },
     {
-      "name": "Large Style Sheet B",
-      "route": "/media/styles/large-layouts/large-layout-b.css"
+      "name": "Article On Top Of Image",
+      "route": "/media/styles/large-layouts/article-on-top-of-image.css"
+    },
+    {
+      "name": "Header On Top Of Image",
+      "route": "/media/styles/large-layouts/header-on-top-of-image.css"
+    },
+    {
+      "name": "Header-Image-Article",
+      "route": "/media/styles/large-layouts/header-image-article.css"
     }
   ]
 }
