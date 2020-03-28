@@ -5,6 +5,10 @@
     {
       "name": "Header-Image-Article",
       "route": "/media/styles/small-layouts/header-image-article.css"
+    },
+    {
+      "name": "Image Next To Header",
+      "route": "/media/styles/small-layouts/image-next-to-header.css"
     }
   ]
 }

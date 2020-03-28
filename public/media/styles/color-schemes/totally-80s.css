@@ -1,0 +1,31 @@
+.FakeBody {
+  background-color: rebeccapurple;
+}
+
+.Image {
+  border: cyan 4px solid;
+}
+
+.Header {
+  color: salmon;
+}
+
+.Article {
+  color: salmon;
+}
+
+.p1 {
+  color: yellow;
+}
+.p2 {
+  color: orange;
+}
+.p3 {
+  color: red;
+}
+.p4 {
+  color: springgreen;
+}
+.p5 {
+  color: whitesmoke;
+}

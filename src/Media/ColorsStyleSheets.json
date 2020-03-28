@@ -13,6 +13,10 @@
     {
       "name": "Dark & See-Through",
       "route": "/media/styles/color-schemes/dark-mode-opacity-bg.css"
+    },
+    {
+      "name": "Totally 80s",
+      "route": "/media/styles/color-schemes/totally-80s.css"
     }
   ]
 }

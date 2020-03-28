@@ -38,6 +38,7 @@ p {
 .FakeBody {
   max-width: 1296px;
   margin: auto;
+  padding: 12px;
 }
 
 .dropdowns {
